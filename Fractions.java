@@ -21,9 +21,7 @@ public class Fractions {
         return a + (double) b / MAX_FRACTIONAL;
     }
 
-
     public void add(Fractions number) {
-
         long resultIntegerPart = this.integerPart + number.integerPart;
         short resultFractionalPart = (short) (this.fractionalPart + number.fractionalPart);
 
@@ -37,7 +35,6 @@ public class Fractions {
     }
 
     public void subtraction(Fractions number) {
-
         long resultIntegerPart = this.integerPart - number.integerPart;
         short resultFractionalPart = (short) (this.fractionalPart - number.fractionalPart);
 

@@ -54,7 +54,6 @@ public class Money {
         return -1;
     }
 
-
     public void multiply(double time) {
         double result = this.convertToDouble() * time;
         this.convertToMoney(result);
